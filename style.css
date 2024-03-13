@@ -135,6 +135,9 @@ nav ul li a.active::after {
     display: none;
     align-items: center;
 }
+#close{
+    display: none;
+}
 
  /* Home Page */
 

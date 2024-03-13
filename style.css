@@ -131,11 +131,11 @@ nav ul li a.active::after {
     left: 2px;
 }
 
-#mobile{
+#mobile {
     display: none;
     align-items: center;
 }
-#close{
+#close {
     display: none;
 }
 

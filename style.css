@@ -526,6 +526,7 @@ nav ul {
      padding-left: 20px;  
     }
     #close {
+        display: initial;
         position: absolute;
         top: 30px;
         left: 50px;

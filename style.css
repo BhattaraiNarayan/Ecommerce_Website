@@ -581,6 +581,25 @@ footer .copyright{
     line-height: 35px;
 }
 
+/* About Page Styling Starts Here */
+#page-header.about-header{
+    background-image: url("assets/about/banner.png");
+}
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head div{
+    padding-left: 40px;
+}
+
+
 
 
 @media (max-width:799px){

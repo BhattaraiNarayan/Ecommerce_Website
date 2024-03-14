@@ -720,6 +720,20 @@ nav ul {
     #newsletter .form{
         width: 100%;
     }
+
+    /* Single Product Page */
+
+    #product-details {
+        display: flex;
+        flex-direction: column;
+    }
+    #product-details .single-pro-image{
+        width: 100%;
+        margin-right: 0px;
+    }
+    #product-details .single-pro-details{
+        width: 100%;
+    }
 }
 
 

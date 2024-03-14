@@ -202,7 +202,24 @@
                     <p>&copy;2023, Narayan Store-Html,Css Ecommerce</p>
                 </div>
             </footer>
+            <script>
+                const MainImg=document.getElementById("MainImg")
+                const smallImg=document.getElementsByClassName("small-img")
 
+                smallImg[0].onclick=function(){
+                    MainImg.src=smallImg[0].src;
+                }
+                 smallImg[1].onclick=function(){
+                    MainImg.src=smallImg[1].src;
+                }
+                 smallImg[2].onclick=function(){
+                    MainImg.src=smallImg[2].src;
+                }
+                 smallImg[3].onclick=function(){
+                    MainImg.src=smallImg[3].src;
+                }    
+
+            </script>
 
 <script src='script.js' defer></script>
 </body>
